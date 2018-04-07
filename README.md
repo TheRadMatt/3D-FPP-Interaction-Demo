@@ -1,4 +1,4 @@
-# 3D-FPP-Interaction-Demo
+# GODOT Engine 3D FPP Interaction Demo
 Godot 3.x First Person Perspective demo/template.
 
 # Features:
@@ -7,6 +7,16 @@ Godot 3.x First Person Perspective demo/template.
 * Using stairs
 * Interaction system
 * Picking up (and throwing) objects
+
+# Instructions:
+* Movement: WASD
+* Jump: SPACE
+* Walk: ALT
+* Sprint: CTRL
+* Interact: E
+* Pick up/leave: F
+* Throw: LMB (hold)
+* Reset: R
 
 ![screenshot]
 
