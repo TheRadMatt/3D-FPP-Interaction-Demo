@@ -10,4 +10,4 @@ Godot 3.x First Person Perspective demo/template.
 
 ![screenshot]
 
-[screenshot]: https://github.com/TheRadMatt/3D-FPP-Interaction-Demo/blob/master/screenshot.png "Interaction-Demo in Editor"
+[screenshot]: https://github.com/TheRadMatt/3D-FPP-Interaction-Demo/blob/master/screenshot.PNG "Interaction-Demo in Editor"
