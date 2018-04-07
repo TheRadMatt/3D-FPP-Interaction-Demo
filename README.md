@@ -8,6 +8,11 @@ Godot 3.x First Person Perspective demo/template.
 * Interaction system
 * Picking up (and throwing) objects
 
+Also showcasing:
+* Different RigidBody physics
+* Animation states for interactable objects
+
+
 # Instructions:
 * Movement: WASD
 * Jump: SPACE
@@ -21,3 +26,9 @@ Godot 3.x First Person Perspective demo/template.
 ![screenshot]
 
 [screenshot]: https://github.com/TheRadMatt/3D-FPP-Interaction-Demo/blob/master/screenshot.PNG "Interaction-Demo in Editor"
+
+
+# It needs polish:
+There are a couple of things that could be fixed:
+* Fix objects clipping through walls
+* 
