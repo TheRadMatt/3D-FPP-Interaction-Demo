@@ -24,7 +24,7 @@ Also showcasing:
 * Throw: LMB (hold)
 * Reset: R
 
-# It needs polish:
+# It needs some more polish:
 There are a couple of things that could be fixed. Mainly rigid objects clipping through walls and through the drawers (when you put a ball into a drawer and close it, the ball clipps through). Not sure how it can be fixed though.
 
 
