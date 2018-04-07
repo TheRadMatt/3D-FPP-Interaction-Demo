@@ -8,3 +8,5 @@ Godot 3.x First Person Perspective demo/template.
 * Interaction system
 * Picking up (and throwing) objects
 
+![screenshot]
+
