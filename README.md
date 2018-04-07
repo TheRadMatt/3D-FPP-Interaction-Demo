@@ -13,7 +13,6 @@ Also showcasing:
 * Animation states for interactable objects
 
 ![screenshot]
-[screenshot]: https://github.com/TheRadMatt/3D-FPP-Interaction-Demo/blob/master/screenshot.PNG "Interaction-Demo in Editor"
 
 # Instructions:
 * Movement: WASD
@@ -27,3 +26,6 @@ Also showcasing:
 
 # It needs polish:
 There are a couple of things that could be fixed. Mainly rigid objects clipping through walls and through the drawers (when you put a ball into a drawer and close it, the ball clipps through). Not sure how it can be fixed though.
+
+
+[screenshot]: https://github.com/TheRadMatt/3D-FPP-Interaction-Demo/blob/master/screenshot.PNG "Interaction-Demo in Editor"
