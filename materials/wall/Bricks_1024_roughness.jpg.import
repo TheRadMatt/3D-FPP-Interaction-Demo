@@ -4,20 +4,22 @@ importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/Bricks_1024_roughness.jpg-02fe20d47b19ceaa41dbb7c82b13554c.s3tc.stex"
 path.etc2="res://.import/Bricks_1024_roughness.jpg-02fe20d47b19ceaa41dbb7c82b13554c.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
 
 [deps]
 
 source_file="res://materials/wall/Bricks_1024_roughness.jpg"
-source_md5="d005b1df870a92eec9503141d94213b1"
-
 dest_files=[ "res://.import/Bricks_1024_roughness.jpg-02fe20d47b19ceaa41dbb7c82b13554c.s3tc.stex", "res://.import/Bricks_1024_roughness.jpg-02fe20d47b19ceaa41dbb7c82b13554c.etc2.stex" ]
-dest_md5="4547d65ed380ff479fe10bcb444bbc49"
 
 [params]
 
 compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=true
 flags/filter=true
@@ -27,6 +29,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

@@ -4,20 +4,22 @@ importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/Bricks_1024_albedo.jpg-398b1ef2fe088144e511405b4e400ce4.s3tc.stex"
 path.etc2="res://.import/Bricks_1024_albedo.jpg-398b1ef2fe088144e511405b4e400ce4.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
 
 [deps]
 
 source_file="res://materials/wall/Bricks_1024_albedo.jpg"
-source_md5="918709e6bee0988c3f9322cf12094ca2"
-
 dest_files=[ "res://.import/Bricks_1024_albedo.jpg-398b1ef2fe088144e511405b4e400ce4.s3tc.stex", "res://.import/Bricks_1024_albedo.jpg-398b1ef2fe088144e511405b4e400ce4.etc2.stex" ]
-dest_md5="c9fefc62038e4e7d2c5fe83d01ec7c2e"
 
 [params]
 
 compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=true
 flags/filter=true
@@ -27,6 +29,7 @@ flags/srgb=1
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

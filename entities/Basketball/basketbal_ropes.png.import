@@ -4,20 +4,22 @@ importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/basketbal_ropes.png-a280ca610250c28ea7e9911fda87b81a.s3tc.stex"
 path.etc2="res://.import/basketbal_ropes.png-a280ca610250c28ea7e9911fda87b81a.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
 
 [deps]
 
 source_file="res://entities/Basketball/basketbal_ropes.png"
-source_md5="ce50a67f0277a34724e76d5aa29fdc5d"
-
 dest_files=[ "res://.import/basketbal_ropes.png-a280ca610250c28ea7e9911fda87b81a.s3tc.stex", "res://.import/basketbal_ropes.png-a280ca610250c28ea7e9911fda87b81a.etc2.stex" ]
-dest_md5="1acb054ed7c02342e2d5b5e042df56c9"
 
 [params]
 
 compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=true
 flags/filter=true
@@ -27,6 +29,7 @@ flags/srgb=1
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

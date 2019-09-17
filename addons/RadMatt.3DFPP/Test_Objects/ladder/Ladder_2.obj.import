@@ -9,12 +9,10 @@ path="res://.import/Ladder_2.obj-4224504f1371d8bf45c35b6dd73d1426.mesh"
 files=[ "res://.import/Ladder_2.obj-4224504f1371d8bf45c35b6dd73d1426.mesh" ]
 
 source_file="res://addons/RadMatt.3DFPP/Test_Objects/ladder/Ladder_2.obj"
-source_md5="5776996de1de6a3d344e0ee9154bfb29"
-
 dest_files=[ "res://.import/Ladder_2.obj-4224504f1371d8bf45c35b6dd73d1426.mesh", "res://.import/Ladder_2.obj-4224504f1371d8bf45c35b6dd73d1426.mesh" ]
-dest_md5="158eb6c089f70750f3f4f69edcf2dbf2"
 
 [params]
 
 generate_tangents=true
 scale_mesh=Vector3( 0.005, 0.005, 0.005 )
+optimize_mesh=true

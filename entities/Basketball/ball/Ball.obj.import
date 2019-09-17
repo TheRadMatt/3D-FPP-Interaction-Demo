@@ -9,12 +9,10 @@ path="res://.import/Ball.obj-0a3432f82689c12a34e7c106062c16e4.mesh"
 files=[ "res://.import/Ball.obj-0a3432f82689c12a34e7c106062c16e4.mesh" ]
 
 source_file="res://entities/Basketball/ball/Ball.obj"
-source_md5="aac0589103c07266517a200914748f4d"
-
 dest_files=[ "res://.import/Ball.obj-0a3432f82689c12a34e7c106062c16e4.mesh", "res://.import/Ball.obj-0a3432f82689c12a34e7c106062c16e4.mesh" ]
-dest_md5="5dc663ad42ce759484b36b2920ffdf31"
 
 [params]
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

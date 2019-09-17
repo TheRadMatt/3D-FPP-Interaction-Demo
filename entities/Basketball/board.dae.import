@@ -7,10 +7,7 @@ path="res://.import/board.dae-5f1416ed03fb77da8c59004bda271f9d.scn"
 [deps]
 
 source_file="res://entities/Basketball/board.dae"
-source_md5="bbf2b2fec819dd59233ec357702e7b0b"
-
 dest_files=[ "res://.import/board.dae-5f1416ed03fb77da8c59004bda271f9d.scn" ]
-dest_md5="f4485fb0f6eda6276e5b9c7d37b14289"
 
 [params]
 

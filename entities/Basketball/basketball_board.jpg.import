@@ -4,20 +4,22 @@ importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/basketball_board.jpg-16c57cabd4b9faf49e6d0d8b460639ae.s3tc.stex"
 path.etc2="res://.import/basketball_board.jpg-16c57cabd4b9faf49e6d0d8b460639ae.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
 
 [deps]
 
 source_file="res://entities/Basketball/basketball_board.jpg"
-source_md5="cd7091a966371760d4422a954d44a5f9"
-
 dest_files=[ "res://.import/basketball_board.jpg-16c57cabd4b9faf49e6d0d8b460639ae.s3tc.stex", "res://.import/basketball_board.jpg-16c57cabd4b9faf49e6d0d8b460639ae.etc2.stex" ]
-dest_md5="57410fa907a5e60e4e95ceb20c93319c"
 
 [params]
 
 compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=true
 flags/filter=true
@@ -27,6 +29,7 @@ flags/srgb=1
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false
