@@ -277,11 +277,11 @@ func _unhandled_input(event):
 #######################################################################################################
 func _input(event):
 
-	if Input.is_key_pressed(KEY_R):
+	if event.is_action_pressed("reset"):
 		get_tree().reload_current_scene()
 
 	# If already carries an object - release it, otherwise (if ray is colliding) pick an object up
-	if Input.is_action_just_pressed("pick_up"):
+	if event.is_action_pressed("pick_up"):
 		if carried_object != null:
 			carried_object.pick_up(self)
 		else:
@@ -291,13 +291,13 @@ func _input(event):
 					x.pick_up(self)
 
 	# Hold Left Mouse Button (LMB) to throw carried object
-	if Input.is_action_just_released("LMB"):
+	if event.is_action_released("throw"):
 		if carried_object != null:
 			carried_object.throw(throw_power)
 		throw_power = 0
 
 	# Interact
-	if Input.is_action_just_pressed("interact"):
+	if event.is_action_pressed("interact"):
 		if $Yaw/Camera/InteractionRay.is_colliding():
 			var x = $Yaw/Camera/InteractionRay.get_collider()
 			print("COLLIDING")
@@ -311,7 +311,7 @@ func _input(event):
 	# Already crouching?
 		# Is there ceiling above me? If not then stand. If yes, then display a message.
 
-	if Input.is_action_pressed("crouch"):
+	if event.is_action_pressed("crouch"):
 		if posture_state == STAND:
 			$crouching.play("crouch")
 			move_speed = walk_speed
@@ -352,7 +352,7 @@ func impulse(vector_towards, power, time):
 # THROW STUFF
 func throwing(delta):
 	if carried_object != null:
-		if Input.is_action_pressed("LMB"):
+		if Input.is_action_pressed("throw"):
 			if throw_power <= 250:
 				throw_power += 2
 
