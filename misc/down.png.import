@@ -4,20 +4,22 @@ importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/down.png-8e1e903b784f0f3f7a4cc489c1bd22ef.s3tc.stex"
 path.etc2="res://.import/down.png-8e1e903b784f0f3f7a4cc489c1bd22ef.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
 
 [deps]
 
 source_file="res://misc/down.png"
-source_md5="b16a97013e05c1b18fed375a3ccd6fd6"
-
 dest_files=[ "res://.import/down.png-8e1e903b784f0f3f7a4cc489c1bd22ef.s3tc.stex", "res://.import/down.png-8e1e903b784f0f3f7a4cc489c1bd22ef.etc2.stex" ]
-dest_md5="54dfd1743ba2ce8324b58ce5a58bc4dd"
 
 [params]
 
 compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=true
 flags/filter=true
@@ -27,6 +29,7 @@ flags/srgb=1
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

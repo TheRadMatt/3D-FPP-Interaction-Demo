@@ -9,12 +9,10 @@ path="res://.import/ceiling_lamp.obj-d7171f943c08a8e7f44d00515a843c5e.mesh"
 files=[ "res://.import/ceiling_lamp.obj-d7171f943c08a8e7f44d00515a843c5e.mesh" ]
 
 source_file="res://entities/Ceiling_Lamp/ceiling_lamp.obj"
-source_md5="a508a4ce9d1419de53c16bdab8412a53"
-
 dest_files=[ "res://.import/ceiling_lamp.obj-d7171f943c08a8e7f44d00515a843c5e.mesh", "res://.import/ceiling_lamp.obj-d7171f943c08a8e7f44d00515a843c5e.mesh" ]
-dest_md5="89e828904f87c5807d7dd625921a0d8e"
 
 [params]
 
 generate_tangents=true
 scale_mesh=Vector3( 0.05, 0.05, 0.05 )
+optimize_mesh=true

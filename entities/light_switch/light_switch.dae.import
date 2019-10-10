@@ -7,10 +7,7 @@ path="res://.import/light_switch.dae-83b154362b761fee57a0497e1128392a.scn"
 [deps]
 
 source_file="res://entities/light_switch/light_switch.dae"
-source_md5="a1e1e68f05bd28684a402560709379b6"
-
 dest_files=[ "res://.import/light_switch.dae-83b154362b761fee57a0497e1128392a.scn" ]
-dest_md5="28e7a393a87f6cf261b427a5e956d9a8"
 
 [params]
 

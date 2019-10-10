@@ -9,12 +9,10 @@ path="res://.import/room_01.obj-1cca4851b2ab3e7c5e4fef152765180c.mesh"
 files=[ "res://.import/room_01.obj-1cca4851b2ab3e7c5e4fef152765180c.mesh" ]
 
 source_file="res://entities/room_01/room_01.obj"
-source_md5="668e3a81e5eea123a656c47d31406a79"
-
 dest_files=[ "res://.import/room_01.obj-1cca4851b2ab3e7c5e4fef152765180c.mesh", "res://.import/room_01.obj-1cca4851b2ab3e7c5e4fef152765180c.mesh" ]
-dest_md5="e0c71369463fc2224d0726a960f2c285"
 
 [params]
 
 generate_tangents=true
 scale_mesh=Vector3( 0.5, 0.5, 0.5 )
+optimize_mesh=true
